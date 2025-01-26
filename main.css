@@ -1,0 +1,108 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+
+.head-desc{
+  background-color: rgba(0, 0, 0, 0.868);
+}
+
+.desc{
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+  color: #fff;
+  h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-right: 0px;
+    span{
+      color: rgb(246, 242, 8);
+    }
+  }
+  p{
+    font-size: 8px;
+    line-height: 8px;
+    padding-right: 10px;
+    margin-top: 5px;
+    color: rgb(208, 208, 208);
+  }
+}
+li{
+  cursor: pointer;
+}
+.head-li{
+  display: flex;
+  padding-left: 120px;
+  gap: 80px;
+  list-style: none;
+}
+
+.head-li{
+  li:hover{
+  color: rgb(246, 242, 8);
+  cursor: pointer;
+  }
+
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+main{
+  margin-left: 50px;
+  height: 700px;
+  background-image: url(images/main.png)
+}
+
+.main-desc{ 
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 1000px;
+  h1{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 60px;
+  }
+  p{
+    margin-top: 10px;
+    width: 950px;
+    font-size: 25px;
+  }
+}
+
+.why-we{
+  h2{
+    margin-top: 40px;
+    margin-left: 420px;
+  }
+}
+
+.because{
+  margin-top: 45px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  p{
+    font-size: 19px;
+  }
+  .img{
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin-left: 640px;
+    margin-top: 250px;
+  }
+}
